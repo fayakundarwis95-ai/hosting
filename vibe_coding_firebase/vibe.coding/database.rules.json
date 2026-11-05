@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "nexora_retail": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

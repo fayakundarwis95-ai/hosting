@@ -1,0 +1,294 @@
+{
+  "nexora_retail": {
+    "version": 1,
+    "settings": {
+      "storeName": "Nexora Tech",
+      "tagline": "Smart devices. Smarter business.",
+      "address": "Jl. Teknologi No. 88, Surabaya, Jawa Timur",
+      "phone": "(031) 8888-2026",
+      "taxRate": 11,
+      "receiptFooter": "Terima kasih sudah berbelanja di Nexora Tech!",
+      "invoicePrefix": "NX"
+    },
+    "products": {
+      "P001": {
+        "id": "P001",
+        "sku": "LAP-101",
+        "name": "ASUS ROG Zephyrus G14",
+        "brand": "ASUS",
+        "category": "Laptop",
+        "cost": 21500000,
+        "price": 24999000,
+        "stock": 6,
+        "minStock": 2,
+        "supplierId": "SUP-001",
+        "description": "Ryzen 9 · 32GB / 1TB · RTX 4060",
+        "active": true,
+        "createdAt": "2026-10-01T10:15:00.000Z"
+      },
+      "P002": {
+        "id": "P002",
+        "sku": "PHN-101",
+        "name": "iPhone 17 256GB",
+        "brand": "Apple",
+        "category": "Smartphone",
+        "cost": 14500000,
+        "price": 16499000,
+        "stock": 10,
+        "minStock": 3,
+        "supplierId": "SUP-002",
+        "description": "Sage · 6.3 inci",
+        "active": true,
+        "createdAt": "2026-10-01T10:15:00.000Z"
+      },
+      "P003": {
+        "id": "P003",
+        "sku": "TAB-101",
+        "name": "Samsung Galaxy Tab S11",
+        "brand": "Samsung",
+        "category": "Tablet",
+        "cost": 11500000,
+        "price": 13499000,
+        "stock": 8,
+        "minStock": 3,
+        "supplierId": "SUP-003",
+        "description": "12GB / 256GB · Silver",
+        "active": true,
+        "createdAt": "2026-10-01T10:15:00.000Z"
+      }
+    },
+    "customers": {
+      "C001": {
+        "id": "C001",
+        "name": "Andi Pratama",
+        "phone": "081234560001",
+        "email": "andi@example.com",
+        "address": "Surabaya"
+      },
+      "C002": {
+        "id": "C002",
+        "name": "Nadia Putri",
+        "phone": "081234560002",
+        "email": "nadia@example.com",
+        "address": "Malang"
+      },
+      "C003": {
+        "id": "C003",
+        "name": "Rizky Ramadhan",
+        "phone": "081234560003",
+        "email": "rizky@example.com",
+        "address": "Probolinggo"
+      }
+    },
+    "suppliers": {
+      "SUP-001": {
+        "id": "SUP-001",
+        "name": "PT Nusantara Digital Supply",
+        "phone": "021-555-0123",
+        "email": "sales@nusantaradigital.example",
+        "address": "Jakarta Pusat"
+      },
+      "SUP-002": {
+        "id": "SUP-002",
+        "name": "CV Komputer Prima",
+        "phone": "031-555-0148",
+        "email": "admin@komputerprima.example",
+        "address": "Surabaya"
+      },
+      "SUP-003": {
+        "id": "SUP-003",
+        "name": "PT Mobile Teknologi",
+        "phone": "022-555-0177",
+        "email": "order@mobileteknologi.example",
+        "address": "Bandung"
+      }
+    },
+    "users": {
+      "U001": {
+        "id": "U001",
+        "name": "Raka Administrator",
+        "email": "admin@nexora.demo",
+        "password": "Admin123!",
+        "role": "admin",
+        "active": true
+      },
+      "U002": {
+        "id": "U002",
+        "name": "Maya Manajer",
+        "email": "manager@nexora.demo",
+        "password": "Manager123!",
+        "role": "manager",
+        "active": true
+      },
+      "U003": {
+        "id": "U003",
+        "name": "Dimas Kasir",
+        "email": "kasir@nexora.demo",
+        "password": "Kasir123!",
+        "role": "kasir",
+        "active": true
+      },
+      "U004": {
+        "id": "U004",
+        "name": "Putri Gudang",
+        "email": "gudang@nexora.demo",
+        "password": "Gudang123!",
+        "role": "gudang",
+        "active": true
+      }
+    },
+    "sales": {
+      "S0001": {
+        "id": "S0001",
+        "number": "NX-2026-0001",
+        "date": "2026-10-20T10:15:00.000Z",
+        "customerId": "C001",
+        "items": [
+          {
+            "productId": "P001",
+            "sku": "LAP-101",
+            "name": "ASUS ROG Zephyrus G14",
+            "category": "Laptop",
+            "qty": 1,
+            "price": 24999000,
+            "cost": 21500000
+          }
+        ],
+        "subtotal": 24999000,
+        "discount": 500000,
+        "tax": 2694890,
+        "grandTotal": 27193890,
+        "paymentMethod": "Transfer",
+        "paid": 27193890,
+        "change": 0,
+        "status": "Selesai",
+        "cashierId": "U003",
+        "note": ""
+      },
+      "S0002": {
+        "id": "S0002",
+        "number": "NX-2026-0002",
+        "date": "2026-10-24T10:15:00.000Z",
+        "customerId": "C002",
+        "items": [
+          {
+            "productId": "P002",
+            "sku": "PHN-101",
+            "name": "iPhone 17 256GB",
+            "category": "Smartphone",
+            "qty": 1,
+            "price": 16499000,
+            "cost": 14500000
+          },
+          {
+            "productId": "P003",
+            "sku": "TAB-101",
+            "name": "Samsung Galaxy Tab S11",
+            "category": "Tablet",
+            "qty": 1,
+            "price": 13499000,
+            "cost": 11500000
+          }
+        ],
+        "subtotal": 29998000,
+        "discount": 0,
+        "tax": 3299780,
+        "grandTotal": 33297780,
+        "paymentMethod": "QRIS",
+        "paid": 33297780,
+        "change": 0,
+        "status": "Selesai",
+        "cashierId": "U003",
+        "note": ""
+      },
+      "S0003": {
+        "id": "S0003",
+        "number": "NX-2026-0003",
+        "date": "2026-10-27T10:15:00.000Z",
+        "customerId": "C003",
+        "items": [
+          {
+            "productId": "P002",
+            "sku": "PHN-101",
+            "name": "iPhone 17 256GB",
+            "category": "Smartphone",
+            "qty": 2,
+            "price": 16499000,
+            "cost": 14500000
+          }
+        ],
+        "subtotal": 32998000,
+        "discount": 300000,
+        "tax": 3596780,
+        "grandTotal": 36294780,
+        "paymentMethod": "Tunai",
+        "paid": 36294780,
+        "change": 0,
+        "status": "Selesai",
+        "cashierId": "U003",
+        "note": ""
+      }
+    },
+    "purchases": {
+      "PO1": {
+        "id": "PO1",
+        "number": "PO-2026-00001",
+        "date": "2026-10-05T10:15:00.000Z",
+        "supplierId": "SUP-001",
+        "productId": "P001",
+        "productName": "ASUS ROG Zephyrus G14",
+        "qty": 4,
+        "cost": 21500000,
+        "total": 86000000,
+        "actorId": "U004",
+        "note": ""
+      },
+      "PO2": {
+        "id": "PO2",
+        "number": "PO-2026-00002",
+        "date": "2026-10-08T10:15:00.000Z",
+        "supplierId": "SUP-002",
+        "productId": "P002",
+        "productName": "iPhone 17 256GB",
+        "qty": 6,
+        "cost": 14500000,
+        "total": 87000000,
+        "actorId": "U004",
+        "note": ""
+      },
+      "PO3": {
+        "id": "PO3",
+        "number": "PO-2026-00003",
+        "date": "2026-10-12T10:15:00.000Z",
+        "supplierId": "SUP-003",
+        "productId": "P003",
+        "productName": "Samsung Galaxy Tab S11",
+        "qty": 5,
+        "cost": 11500000,
+        "total": 57500000,
+        "actorId": "U004",
+        "note": ""
+      }
+    },
+    "activities": {
+      "A1": {
+        "id": "A1",
+        "at": "2026-10-27T11:15:00.000Z",
+        "actor": "Dimas Kasir",
+        "action": "Penjualan NX-2026-0003 selesai"
+      },
+      "A2": {
+        "id": "A2",
+        "at": "2026-10-12T09:15:00.000Z",
+        "actor": "Putri Gudang",
+        "action": "Barang masuk Samsung Galaxy Tab S11: +5 unit (PO-2026-00003)"
+      },
+      "A3": {
+        "id": "A3",
+        "at": "2026-10-01T08:15:00.000Z",
+        "actor": "Sistem",
+        "action": "Data contoh Nexora Tech dimuat"
+      }
+    }
+  }
+}
